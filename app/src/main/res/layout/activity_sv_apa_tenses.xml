@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="@drawable/bg1"
+    tools:context=".SvApaTenses">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:fontFamily="@font/poppinsbold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"
+            android:text="Apa itu Tenses?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:justificationMode="inter_word"
+            android:text="Apa itu tenses? Tenses adalah metode tata bahasa (grammar) dalam Bahasa Inggris yang berbasis pada kata verbal (kata kerja) ataupun nominal (non kata kerja). Tenses biasanya digunakan untuk menunjukkan waktu atau keadaan suatu tindakan pada saat suatu kalimat diucapkan.\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinssemibold" android:justificationMode="inter_word"
+            android:text="Dalam melihat konteks waktu, ada tiga istilah yang digunakan dalam tenses:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="•	Past (lampau): yang dilakukan sebelum saat ini.\n•	Present (sekarang): yang dilakukan saat ini, atau apa saja yang berkaitan dengan saat ini.\n
+•	Future (masa depan): yang dilakukan setelah saat ini.\n
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinssemibold" android:justificationMode="inter_word"
+            android:text="Dalam melihat konteks keadaan, ada dua istilah yang digunakan dalam tenses:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginLeft="10dp"
+            android:text="•	Continuous (berkelanjutan): tindakan yang belum selesai dilakukan.\n
+•	Perfect (sempurna): tindakan yang sudah selesai dilakukan.\n
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinssemibold" android:justificationMode="inter_word"
+            android:text="Petunjuk yang digunakan dalam membentuk Tenses:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginLeft="10dp"
+            android:text="•	Subjek(s): kata ganti orang, seperti I (aku), you (kamu), they (mereka), we (kita), she (dia perempuan), he (dia laki-laki), it (benda/makhluk hidup non-manusia). Terbagi menjadi 2, tunggal (singular) dan jamak (plural)\n
+•	Verb(v): kata kerja bentuk, merujuk pada kegiatan atau situasi yang akan dijelaskan dalam kalimat.\n
+•	Adjective(adj): bentuk kata sifat, contohnya cantik, ringan, dan baru.\n
+•	Adverb(adv): kata keterangan, bisa berupa tempat, waktu , dan lain-lain, contohnya di sekolah, dan setelah makan.\n
+•	Noun(n): Kata benda, contohnya nama makanan, nama pekerjaan, dan nama benda.\n
+•	To be: partikel kata sambung yang digunakan untuk menjelaskan kondisi atau situasi subjek.
+"/>
+        <ImageView
+            android:src="@drawable/tobe"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginLeft="10dp"
+            android:text="\n•	To Do/Have: partikel kata sambung yang menunjukkan kegiatan/kepunyaan subjek. "/>
+
+        <ImageView
+            android:src="@drawable/tohave"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
